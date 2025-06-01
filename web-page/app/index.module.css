@@ -1,0 +1,1523 @@
+.groupIcon {
+  	position: absolute;
+  	height: 100%;
+  	width: 20.32%;
+  	top: 0%;
+  	right: 79.68%;
+  	bottom: 0%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.groupIcon1 {
+  	position: absolute;
+  	height: 69.38%;
+  	width: 74.87%;
+  	top: 8.34%;
+  	right: 0.03%;
+  	bottom: 22.29%;
+  	left: 25.1%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.group {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+}
+.logoAdsumtec011 {
+  	width: 156px;
+  	position: relative;
+  	height: 32px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.solues {
+  	position: relative;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	font-weight: 500;
+}
+.homeParent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 64px;
+}
+.logoAdsumtec011Parent {
+  	width: 801px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 64px;
+}
+.stateLayer {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 24px;
+}
+.button {
+  	border-radius: 100px;
+  	background-color: #070d16;
+  	height: 40px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	color: #f5f5f5;
+}
+.menu {
+  	align-self: stretch;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: space-between;
+  	padding: 0px 20px;
+  	gap: 0px;
+}
+.header {
+  	width: 1300px;
+  	background-color: #fefefe;
+  	height: 74px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	z-index: 0;
+}
+.unionIcon {
+  	position: relative;
+  	border-radius: 40.63px;
+  	width: 1300px;
+  	height: 540.6px;
+}
+.component2Child {
+  	position: absolute;
+  	top: -166.67px;
+  	left: 520.83px;
+  	filter: blur(520.83px);
+  	border-radius: 50%;
+  	background-color: #ff7f11;
+  	width: 596.9px;
+  	height: 596.9px;
+}
+.component2Item {
+  	position: absolute;
+  	top: 269.79px;
+  	left: 604.17px;
+  	filter: blur(312.5px);
+  	border-radius: 50%;
+  	background-color: #386ff4;
+  	width: 469.8px;
+  	height: 469.8px;
+}
+.component2 {
+  	position: absolute;
+  	top: -0.81px;
+  	left: 0.5px;
+  	width: 1300px;
+  	height: 540.6px;
+  	overflow: hidden;
+}
+.umNovoOlhar {
+  	position: absolute;
+  	top: 83px;
+  	left: 87.79px;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+}
+.soluesParaO {
+  	width: 961px;
+  	position: relative;
+  	letter-spacing: -0.03px;
+  	line-height: 70px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+.obtenhaResultadosConcretos {
+  	width: 672px;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.5px;
+  	line-height: 32px;
+  	display: inline-block;
+}
+.soluesParaOSeuNegcioCoParent {
+  	position: absolute;
+  	top: 123px;
+  	left: 87.5px;
+  	width: 999px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	padding: 29px 0px;
+  	box-sizing: border-box;
+  	gap: 16px;
+  	font-size: 60px;
+  	color: #f5f5f5;
+}
+.stateLayer1 {
+  	align-self: stretch;
+  	flex: 1;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10.4px 24.9px;
+}
+.button1 {
+  	position: absolute;
+  	top: 39.1px;
+  	left: 61.17px;
+  	border-radius: 103.58px;
+  	background-color: #ff9900;
+  	width: 260px;
+  	height: 51.8px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+.groupChild {
+  	position: absolute;
+  	top: 37.6px;
+  	left: 0px;
+  	width: 54px;
+  	height: 53.1px;
+  	object-fit: contain;
+}
+.groupItem {
+  	position: absolute;
+  	top: 0px;
+  	left: 50.3px;
+  	width: 13.2px;
+  	height: 138.3px;
+}
+.buttonParent {
+  	position: absolute;
+  	top: 445px;
+  	left: 0.5px;
+  	width: 321.2px;
+  	height: 138.3px;
+  	text-align: center;
+  	color: #070d16;
+}
+.header1 {
+  	width: 1300px;
+  	position: relative;
+  	border-radius: 31.07px;
+  	height: 538px;
+  	z-index: 1;
+  	color: rgba(250, 250, 250, 0.7);
+}
+.unionIcon1 {
+  	width: 0px;
+  	position: relative;
+  	border-radius: 21.03px;
+  	height: 0px;
+}
+.backgroundChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 0px 2.843313455581665px 4.47px rgba(0, 0, 0, 0.02);
+  	border-radius: 12.19px;
+  	background-color: #fff;
+  	width: 750.6px;
+  	height: 361.5px;
+}
+.em2024 {
+  	color: #a0aec0;
+}
+.maisEm2024Container {
+  	position: absolute;
+  	top: 33.31px;
+  	left: 0.81px;
+  	letter-spacing: 0.08px;
+  	line-height: 16.25px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 116.2px;
+  	height: 15.4px;
+}
+.dashboardDeVendas {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	font-size: 26px;
+  	line-height: 32.5px;
+  	font-weight: 600;
+  	color: #2d3748;
+  	display: inline-block;
+  	width: 305.5px;
+  	height: 31.7px;
+}
+.text {
+  	position: absolute;
+  	top: 22.75px;
+  	left: 17.06px;
+  	width: 305.5px;
+  	height: 48.7px;
+}
+.dec {
+  	position: absolute;
+  	top: 0px;
+  	left: 661.27px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 22.7px;
+  	height: 12.2px;
+}
+.nov {
+  	position: absolute;
+  	top: 0px;
+  	left: 607.66px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 23.6px;
+  	height: 12.2px;
+}
+.oct {
+  	position: absolute;
+  	top: 0px;
+  	left: 547.54px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 23.6px;
+  	height: 12.2px;
+}
+.sep {
+  	position: absolute;
+  	top: 0px;
+  	left: 485.8px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 27.6px;
+  	height: 12.2px;
+}
+.aug {
+  	position: absolute;
+  	top: 0px;
+  	left: 424.06px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 24.4px;
+  	height: 12.2px;
+}
+.jul {
+  	position: absolute;
+  	top: 0px;
+  	left: 365.57px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 11.8px;
+  	height: 12.2px;
+}
+.jun {
+  	position: absolute;
+  	top: 0px;
+  	left: 304.64px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 14.6px;
+  	height: 12.2px;
+}
+.may {
+  	position: absolute;
+  	top: 0px;
+  	left: 242.9px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 23.6px;
+  	height: 12.2px;
+}
+.apr {
+  	position: absolute;
+  	top: 0px;
+  	left: 181.97px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 25.2px;
+  	height: 12.2px;
+}
+.mar {
+  	position: absolute;
+  	top: 0px;
+  	left: 121.04px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 25.2px;
+  	height: 12.2px;
+}
+.feb {
+  	position: absolute;
+  	top: 0px;
+  	left: 60.12px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 22.7px;
+  	height: 12.2px;
+}
+.jan {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 26.8px;
+  	height: 12.2px;
+}
+.horizontal {
+  	position: absolute;
+  	top: 229.09px;
+  	left: 33.31px;
+  	width: 684px;
+  	height: 12.2px;
+}
+.div {
+  	position: absolute;
+  	top: 203.09px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 8.1px;
+  	height: 13px;
+}
+.div1 {
+  	position: absolute;
+  	top: 162.48px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 21.9px;
+  	height: 12.2px;
+}
+.div2 {
+  	position: absolute;
+  	top: 121.86px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 21.9px;
+  	height: 12.2px;
+}
+.div3 {
+  	position: absolute;
+  	top: 81.24px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 21.9px;
+  	height: 12.2px;
+}
+.div4 {
+  	position: absolute;
+  	top: 40.62px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 21.9px;
+  	height: 12.2px;
+}
+.div5 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	letter-spacing: 0.41px;
+  	line-height: 13px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 21.9px;
+  	height: 12.2px;
+}
+.linesChild {
+  	position: absolute;
+  	top: 203.09px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.linesItem {
+  	position: absolute;
+  	top: 162.48px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.linesInner {
+  	position: absolute;
+  	top: 121.86px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.lineDiv {
+  	position: absolute;
+  	top: 81.24px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.linesChild1 {
+  	position: absolute;
+  	top: 40.62px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.linesChild2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-top: 0.8px dashed #e2e8f0;
+  	box-sizing: border-box;
+  	width: 683.2px;
+  	height: 0.8px;
+}
+.lines {
+  	position: absolute;
+  	top: 6.5px;
+  	left: 32.9px;
+  	width: 682.4px;
+  	height: 203.1px;
+}
+.vertical {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 715.3px;
+  	height: 216.1px;
+}
+.linesIcon {
+  	position: absolute;
+  	top: 6.5px;
+  	left: 32.9px;
+  	width: 682.4px;
+  	height: 202.9px;
+}
+.data {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 717.3px;
+  	height: 241.3px;
+}
+.graph {
+  	position: absolute;
+  	top: 96.67px;
+  	left: 17.87px;
+  	width: 717.3px;
+  	height: 241.3px;
+  	font-size: 8.94px;
+  	color: #cbd5e0;
+}
+.secondCardWrapper {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 750.6px;
+  	height: 361.5px;
+}
+.bloco1TecnologiasInner {
+  	width: 492px;
+  	position: relative;
+  	box-shadow: 0px 6px 10.4px rgba(7, 13, 22, 0.05);
+  	border-radius: 32.5px;
+  	height: 362px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.usamosAsPrincipais {
+  	margin: 0;
+}
+.usamosAsPrincipaisContainer {
+  	position: relative;
+  	letter-spacing: -0.03px;
+  	line-height: 58px;
+  	font-weight: 600;
+}
+.otimizeAGestoContainer {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 24px;
+  	letter-spacing: 0.5px;
+  	line-height: 32px;
+}
+.stateLayer2 {
+  	align-self: stretch;
+  	height: 40px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 10px 24px;
+  	box-sizing: border-box;
+}
+.button2 {
+  	border-radius: 100px;
+  	background-color: #070d16;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #fff;
+}
+.usamosAsPrincipaisTecnologiParent {
+  	width: 562px;
+  	height: 279px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 16px;
+  	font-size: 52px;
+  	color: #070d16;
+}
+.bloco1Tecnologias {
+  	width: 1295px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 41px 40px;
+  	box-sizing: border-box;
+  	gap: 154px;
+  	z-index: 2;
+  	font-size: 11.37px;
+  	color: #ff9900;
+}
+.dataAnalytics {
+  	position: absolute;
+  	top: 46px;
+  	left: 0px;
+  	letter-spacing: 0.15px;
+  	line-height: 32px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 185px;
+}
+.identifiqueOportunidadesE {
+  	position: absolute;
+  	top: 88px;
+  	left: 0px;
+  	font-size: 14px;
+  	letter-spacing: 0.4px;
+  	line-height: 24px;
+  	font-weight: 500;
+  	color: #838383;
+  	display: inline-block;
+  	width: 185px;
+}
+.icon {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 36px;
+  	height: 36px;
+}
+.dataAnalyticsParent {
+  	width: 185px;
+  	position: relative;
+  	height: 160px;
+  	color: #00263a;
+}
+.cloudSolutions {
+  	position: absolute;
+  	top: 46px;
+  	left: 0px;
+  	letter-spacing: 0.15px;
+  	line-height: 32px;
+  	font-weight: 600;
+}
+.icon2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 36px;
+  	height: 36px;
+  	object-fit: contain;
+}
+.cloudSolutionsParent {
+  	width: 185px;
+  	position: relative;
+  	height: 160px;
+}
+.powerBiParent {
+  	width: 185px;
+  	position: relative;
+  	height: 153px;
+}
+.bloco2Servios {
+  	width: 1297px;
+  	border-radius: 21.03px;
+  	background-color: #f5f5f5;
+  	height: 277px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	padding: 51px 90px;
+  	box-sizing: border-box;
+  	gap: 32px 117px;
+  	z-index: 3;
+  	font-size: 24px;
+}
+.sobreAAdsumtec1 {
+  	position: absolute;
+  	top: 0px;
+  	left: -0.5px;
+  	letter-spacing: -0.03px;
+  	line-height: 58px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 550px;
+  	height: 55px;
+}
+.somosUmaConsultoria {
+  	position: absolute;
+  	top: 71px;
+  	left: 0.5px;
+  	font-size: 24px;
+  	letter-spacing: 0.5px;
+  	line-height: 32px;
+  	display: inline-block;
+  	width: 563px;
+  	height: 120px;
+}
+.sobreAAdsumtecParent {
+  	width: 550px;
+  	position: relative;
+  	height: 191px;
+}
+.button3 {
+  	width: 126px;
+  	border-radius: 100px;
+  	background-color: #070d16;
+  	height: 39px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #fff;
+}
+.frameParent {
+  	width: 615px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 32px 0px 0px;
+  	box-sizing: border-box;
+  	gap: 32px;
+}
+.unionIcon2 {
+  	position: relative;
+  	border-radius: 20px;
+  	width: 455px;
+  	height: 300px;
+}
+.addIcon {
+  	width: 18px;
+  	position: relative;
+  	height: 18px;
+}
+.addParent {
+  	position: absolute;
+  	height: 6.67%;
+  	width: 20.88%;
+  	top: 87.33%;
+  	right: 4.4%;
+  	bottom: 6%;
+  	left: 74.73%;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 7px;
+}
+.component4 {
+  	width: 455px;
+  	position: relative;
+  	height: 300px;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #000;
+}
+.sobreAAdsumtec {
+  	width: 1302px;
+  	height: 364px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 40px;
+  	box-sizing: border-box;
+  	gap: 151px;
+  	z-index: 4;
+  	font-size: 52px;
+}
+.unionIcon3 {
+  	position: relative;
+  	border-radius: 21.03px;
+  	width: 1296px;
+  	height: 389px;
+}
+.bigNumbersChild {
+  	position: absolute;
+  	top: 318px;
+  	left: 544px;
+  	filter: blur(300px);
+  	border-radius: 50%;
+  	background-color: #386ff4;
+  	width: 411px;
+  	height: 411px;
+}
+.bigNumbersItem {
+  	position: absolute;
+  	top: 367px;
+  	left: 754px;
+  	filter: blur(300px);
+  	border-radius: 50%;
+  	background-color: #ff9900;
+  	width: 411px;
+  	height: 411px;
+}
+.span {
+  	font-size: 96px;
+}
+.logos {
+  	position: relative;
+  	letter-spacing: -0.25px;
+  	line-height: 64px;
+}
+.menu1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 32.16px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.petabytesTransferidos {
+  	position: absolute;
+  	top: 93.36px;
+  	left: 0.16px;
+  	font-size: 18px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	text-align: center;
+  	display: inline-block;
+  	width: 209.6px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+}
+.menuParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 209.8px;
+  	height: 124.5px;
+}
+.menu2 {
+  	position: absolute;
+  	top: 0px;
+  	left: 40.16px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.clientesAtendidos {
+  	position: absolute;
+  	top: 90.25px;
+  	left: 0.16px;
+  	font-size: 18px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	text-align: center;
+  	display: inline-block;
+  	width: 249.9px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+}
+.menuGroup {
+  	position: absolute;
+  	top: 3px;
+  	left: 261px;
+  	width: 250.1px;
+  	height: 121.6px;
+}
+.menu3 {
+  	position: absolute;
+  	top: 0px;
+  	left: 12.16px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+}
+.projetosRealizados {
+  	position: absolute;
+  	top: 90.34px;
+  	left: 0.16px;
+  	font-size: 18px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	text-align: center;
+  	display: inline-block;
+  	width: 218px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+}
+.menuContainer {
+  	position: absolute;
+  	top: 3px;
+  	left: 564px;
+  	width: 218.2px;
+  	height: 121.5px;
+}
+.groupParent {
+  	position: absolute;
+  	top: 130px;
+  	left: 258.34px;
+  	width: 782.2px;
+  	height: 124.6px;
+}
+.umPoucoDo {
+  	position: absolute;
+  	top: 9px;
+  	left: 33.31px;
+  	font-size: 18px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	color: #070d16;
+  	display: inline-block;
+  	width: 159.8px;
+  	height: 56.4px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+}
+.bigNumbersInner {
+  	position: absolute;
+  	top: 28.48px;
+  	left: 196.98px;
+  	width: 44px;
+  	height: 44px;
+  	object-fit: contain;
+}
+.bigNumbers {
+  	width: 1296px;
+  	position: relative;
+  	border-radius: 30px;
+  	height: 389px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 5;
+  	font-size: 64px;
+  	color: #fff;
+}
+.oQueFalamSobreNsParent {
+  	width: 562px;
+  	height: 279px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	gap: 16px;
+}
+.unionIcon5 {
+  	position: relative;
+  	border-radius: 39.68px;
+  	width: 621px;
+  	height: 271.8px;
+}
+.ametMinimMollit {
+  	align-self: stretch;
+  	position: relative;
+  	line-height: 29.76px;
+  	font-weight: 500;
+}
+.elisaGrant {
+  	position: relative;
+  	line-height: 14.53px;
+}
+.legacySolutionsEngineer {
+  	position: relative;
+  	font-size: 9.69px;
+  	line-height: 9.69px;
+}
+.elisaGrantParent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 4.8px;
+  	font-size: 14.53px;
+  	color: #386ff4;
+}
+.ametMinimMollitNonDeseruntParent {
+  	position: absolute;
+  	top: 73.41px;
+  	left: 15.87px;
+  	width: 562px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: center;
+  	padding: 0px 39.7px;
+  	box-sizing: border-box;
+  	gap: 19.4px;
+}
+.modalFeedbackDeskChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 494.02px;
+  	border-radius: 43.65px;
+  	background-color: #ff9900;
+  	width: 83.3px;
+  	height: 57.5px;
+}
+.starIcon {
+  	position: absolute;
+  	top: 5.95px;
+  	left: 511.88px;
+  	width: 47.6px;
+  	height: 47.6px;
+}
+.modalFeedbackDesk {
+  	width: 621px;
+  	position: relative;
+  	height: 271.8px;
+}
+.modalFeedbackDeskWrapper {
+  	width: 637px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-end;
+  	font-size: 27.78px;
+  	color: #152135;
+}
+.oQueFalamSobreNs {
+  	width: 1295px;
+  	height: 320px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 41px 40px;
+  	box-sizing: border-box;
+  	gap: 10px;
+  	z-index: 6;
+  	font-size: 52px;
+}
+.unionIcon6 {
+  	position: relative;
+  	border-radius: 21.03px;
+  	width: 1296px;
+  	height: 684px;
+}
+.button4 {
+  	position: absolute;
+  	bottom: 357px;
+  	left: 54px;
+  	border-radius: 100px;
+  	background-color: #152135;
+  	height: 53px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+  	text-align: center;
+  	font-size: 14px;
+  	color: #fff;
+}
+.asSoluesEmContainer {
+  	position: absolute;
+  	top: 55px;
+  	left: 54px;
+  	font-size: 40px;
+  	letter-spacing: -0.03px;
+  	line-height: 52px;
+}
+.serviosInteligentesQue {
+  	position: absolute;
+  	top: 175px;
+  	left: 54px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 426px;
+}
+.soluesChild {
+  	position: absolute;
+  	top: 598px;
+  	left: 256px;
+  	width: 51px;
+  	height: 51px;
+  	object-fit: contain;
+}
+.feitoSobMedida {
+  	position: absolute;
+  	top: 599px;
+  	left: 34.31px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 191.4px;
+  	height: 56.4px;
+  	transform:  rotate(0.3deg);
+  	transform-origin: 0 0;
+}
+.frameChild {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	border-radius: 44px;
+  	background-color: #ff9900;
+  	width: 36px;
+  	height: 36px;
+}
+.linkedServicesIcon {
+  	position: absolute;
+  	top: 6px;
+  	left: 6px;
+  	width: 24px;
+  	height: 24px;
+}
+.diretrizesParaUma {
+  	position: absolute;
+  	top: 88px;
+  	left: 0px;
+  	font-size: 14px;
+  	letter-spacing: 0.4px;
+  	line-height: 24px;
+  	font-weight: 500;
+  	color: #838383;
+  	display: inline-block;
+  	width: 204px;
+}
+.governanaParent {
+  	width: 204px;
+  	position: relative;
+  	height: 160px;
+}
+.protejaSuasInformaes {
+  	position: absolute;
+  	top: 126px;
+  	left: 0.5px;
+  	font-size: 14px;
+  	letter-spacing: 0.4px;
+  	line-height: 24px;
+  	font-weight: 500;
+  	color: #838383;
+  	display: inline-block;
+  	width: 185px;
+}
+.seguranaDaInformaoParent {
+  	width: 185px;
+  	position: relative;
+  	height: 197px;
+}
+.automatizeProcessosComplexos {
+  	position: absolute;
+  	top: 126px;
+  	left: 0px;
+  	font-size: 14px;
+  	letter-spacing: 0.4px;
+  	line-height: 24px;
+  	font-weight: 500;
+  	color: #838383;
+  	display: inline-block;
+  	width: 174px;
+}
+.frameGroup {
+  	position: absolute;
+  	top: calc(50% - 282px);
+  	left: 543px;
+  	width: 702px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	flex-wrap: wrap;
+  	align-content: flex-start;
+  	gap: 24px 64px;
+  	font-size: 24px;
+}
+.solues1 {
+  	width: 1296px;
+  	position: relative;
+  	border-radius: 30px;
+  	height: 674px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 7;
+  	font-size: 18px;
+}
+.formulrioChild {
+  	position: absolute;
+  	top: -168px;
+  	left: 331px;
+  	filter: blur(300px);
+  	border-radius: 50%;
+  	background-color: #ff9900;
+  	width: 411px;
+  	height: 409px;
+}
+.formulrioItem {
+  	position: absolute;
+  	top: 154px;
+  	left: 436px;
+  	filter: blur(300px);
+  	border-radius: 50%;
+  	background-color: #386ff4;
+  	width: 535px;
+  	height: 533px;
+}
+.groupInner {
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0%;
+  	right: 0%;
+  	bottom: 0%;
+  	left: 0%;
+  	box-shadow: 0px 8px 25px rgba(13, 10, 44, 0.06);
+  	border-radius: 60px;
+  	background-color: #fff;
+  	border: 1px solid #eff0f6;
+  	box-sizing: border-box;
+}
+.groupIcon2 {
+  	width: 10.6px;
+  	position: relative;
+  	height: 13.5px;
+  	display: none;
+}
+.primaryBtn {
+  	position: absolute;
+  	height: 66.19%;
+  	width: 24.19%;
+  	top: 16.41%;
+  	right: 2.57%;
+  	bottom: 17.4%;
+  	left: 73.24%;
+  	border-radius: 56px;
+  	background-color: #ff7f11;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 16px 32px 19px;
+  	box-sizing: border-box;
+  	gap: 8px;
+}
+.deixeSeuMelhor {
+  	position: absolute;
+  	height: 25.71%;
+  	width: 50.72%;
+  	top: 31.75%;
+  	left: 5.17%;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	font-weight: 500;
+  	text-align: left;
+  	display: inline-block;
+}
+.rectangleParent {
+  	position: absolute;
+  	height: 18.21%;
+  	width: 70.11%;
+  	top: 69.65%;
+  	right: 14.92%;
+  	bottom: 12.14%;
+  	left: 14.97%;
+}
+.descubraAsSolues {
+  	position: absolute;
+  	top: 0px;
+  	left: calc(50% - 427.5px);
+  	letter-spacing: -0.03px;
+  	line-height: 70px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 855px;
+}
+.entreEmContato {
+  	position: absolute;
+  	height: 14.01%;
+  	top: 88.14%;
+  	left: calc(50% - 356.5px);
+  	font-size: 18px;
+  	letter-spacing: 0.25px;
+  	line-height: 30px;
+  	display: inline-block;
+  	width: 713px;
+}
+.descubraAsSoluesPerfeitasParent {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 855px;
+  	height: 177px;
+  	font-size: 60px;
+  	color: #fff;
+}
+.groupContainer {
+  	position: absolute;
+  	top: 85px;
+  	left: 0px;
+  	width: 855px;
+  	height: 346px;
+}
+.novasEstratgiasAo {
+  	position: absolute;
+  	top: 33px;
+  	left: calc(50% - 128.5px);
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+  	color: rgba(250, 250, 250, 0.7);
+  	text-align: left;
+}
+.frameContainer {
+  	position: absolute;
+  	top: 77px;
+  	left: 219px;
+  	width: 855px;
+  	height: 384px;
+}
+.formulrio {
+  	width: 1293px;
+  	position: relative;
+  	border-radius: 30px;
+  	background-color: #152135;
+  	height: 592px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	z-index: 8;
+  	text-align: center;
+  	color: #152135;
+}
+.horizontalfullWidthIcon {
+  	width: 1287px;
+  	height: 41px;
+  	z-index: 9;
+}
+.div6 {
+  	width: 1440px;
+  	position: absolute;
+  	margin: 0 !important;
+  	top: 0px;
+  	left: 0px;
+  	background-color: #fff;
+  	height: 4523px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: none;
+  	z-index: 10;
+}
+.groupIcon3 {
+  	position: absolute;
+  	height: 89.66%;
+  	width: 81.21%;
+  	top: 0%;
+  	right: -0.02%;
+  	bottom: 10.34%;
+  	left: 18.81%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.groupIcon4 {
+  	position: absolute;
+  	height: 93.1%;
+  	width: 14.02%;
+  	top: 6.66%;
+  	right: 85.98%;
+  	bottom: 0.24%;
+  	left: 0%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+}
+.logoHorizontalEscuro3 {
+  	width: 165.5px;
+  	position: relative;
+  	height: 26.1px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+}
+.alcanandoOSucesso {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	line-height: 40px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 366px;
+}
+.alcanandoOSucessoComDadosWrapper {
+  	width: 366px;
+  	position: relative;
+  	height: 80px;
+}
+.linkedinIcon {
+  	width: 24.8px;
+  	position: relative;
+  	height: 24.8px;
+  	object-fit: cover;
+}
+.linkedinParent {
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 11.8px;
+}
+.logoHorizontalEscuro3Parent {
+  	width: 366px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 16px;
+  	font-size: 32px;
+}
+.aAdsumtec {
+  	align-self: stretch;
+  	position: relative;
+  	font-size: 16px;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+}
+.faleConosco {
+  	align-self: stretch;
+  	position: relative;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	font-weight: 500;
+}
+.aAdsumtecParent {
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 7px;
+}
+.nossosServiosParent {
+  	width: 167px;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 7px;
+}
+.bottom {
+  	width: 1300px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 120px;
+  	z-index: 11;
+}
+.home {
+  	position: relative;
+  	background-color: #fefefe;
+  	width: 100%;
+  	height: 4366px;
+  	overflow: hidden;
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 32px 88px;
+  	box-sizing: border-box;
+  	gap: 32px;
+  	text-align: left;
+  	font-size: 14px;
+  	color: #070d16;
+  	font-family: Urbanist;
+}
+
