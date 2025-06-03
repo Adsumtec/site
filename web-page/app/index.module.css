@@ -244,171 +244,6 @@
   	width: 750.6px;
   	height: 361.5px;
 }
-.em2024 {
-  	color: #a0aec0;
-}
-.maisEm2024Container {
-  	position: absolute;
-  	top: 33.31px;
-  	left: 0.81px;
-  	letter-spacing: 0.08px;
-  	line-height: 16.25px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 116.2px;
-  	height: 15.4px;
-}
-.dashboardDeVendas {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	font-size: 26px;
-  	line-height: 32.5px;
-  	font-weight: 600;
-  	color: #2d3748;
-  	display: inline-block;
-  	width: 305.5px;
-  	height: 31.7px;
-}
-.text {
-  	position: absolute;
-  	top: 22.75px;
-  	left: 17.06px;
-  	width: 305.5px;
-  	height: 48.7px;
-}
-.dec {
-  	position: absolute;
-  	top: 0px;
-  	left: 661.27px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 22.7px;
-  	height: 12.2px;
-}
-.nov {
-  	position: absolute;
-  	top: 0px;
-  	left: 607.66px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.oct {
-  	position: absolute;
-  	top: 0px;
-  	left: 547.54px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.sep {
-  	position: absolute;
-  	top: 0px;
-  	left: 485.8px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 27.6px;
-  	height: 12.2px;
-}
-.aug {
-  	position: absolute;
-  	top: 0px;
-  	left: 424.06px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 24.4px;
-  	height: 12.2px;
-}
-.jul {
-  	position: absolute;
-  	top: 0px;
-  	left: 365.57px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 11.8px;
-  	height: 12.2px;
-}
-.jun {
-  	position: absolute;
-  	top: 0px;
-  	left: 304.64px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 14.6px;
-  	height: 12.2px;
-}
-.may {
-  	position: absolute;
-  	top: 0px;
-  	left: 242.9px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.apr {
-  	position: absolute;
-  	top: 0px;
-  	left: 181.97px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 25.2px;
-  	height: 12.2px;
-}
-.mar {
-  	position: absolute;
-  	top: 0px;
-  	left: 121.04px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 25.2px;
-  	height: 12.2px;
-}
-.feb {
-  	position: absolute;
-  	top: 0px;
-  	left: 60.12px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 22.7px;
-  	height: 12.2px;
-}
-.jan {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 26.8px;
-  	height: 12.2px;
-}
 .horizontal {
   	position: absolute;
   	top: 229.09px;
@@ -960,7 +795,7 @@
 }
 .umPoucoDo {
   	position: absolute;
-  	top: 9px;
+  	top: 0px;
   	left: 33.31px;
   	font-size: 18px;
   	letter-spacing: 0.25px;
@@ -974,23 +809,26 @@
 }
 .bigNumbersInner {
   	position: absolute;
-  	top: 28.48px;
+  	top: 8.48px;
   	left: 196.98px;
   	width: 44px;
   	height: 44px;
   	object-fit: contain;
 }
 .bigNumbers {
-  	width: 1296px;
-  	position: relative;
-  	border-radius: 30px;
-  	height: 389px;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	z-index: 5;
-  	font-size: 64px;
-  	color: #fff;
+	top: 30px;
+	bottom: 30px;
+	width: 1300px;
+	position: relative;
+	border-radius: 30px;
+	height: 500px;
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 5;
+	font-size: 64px;
+	color: #fff;
 }
+
 .oQueFalamSobreNsParent {
   	width: 562px;
   	height: 279px;
