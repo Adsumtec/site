@@ -409,11 +409,10 @@
   	color: #cbd5e0;
 }
 .secondCardWrapper {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 750.6px;
-  	height: 361.5px;
+	position: relative; /* ← necessário para o fill funcionar */
+	width: 750.6px;
+	height: 361.5px;
+	overflow: hidden; /* se quiser cortar excesso */
 }
 .bloco1TecnologiasInner {
   	width: 492px;
@@ -839,7 +838,7 @@
   	gap: 16px;
 }
 .unionIcon5 {
-  	position: relative;
+  	position: absolute;
   	border-radius: 39.68px;
   	width: 621px;
   	height: 271.8px;

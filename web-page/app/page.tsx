@@ -67,7 +67,15 @@ const Home:NextPage = () => {
       			<div className={styles.bloco1Tecnologias}>
         				<div className={styles.bloco1TecnologiasInner}>
           					<div className={styles.secondCardWrapper}>
-                  				<Dashboard/>
+                  				<Image 
+									src="/dashboard.svg"
+									alt=""
+									fill
+									style={{
+									objectFit: 'cover', // ou 'contain', depende do efeito desejado
+									}}
+									priority
+								/>
           					</div>
         				</div>
         				<div className={styles.usamosAsPrincipaisTecnologiParent}>
@@ -146,18 +154,12 @@ const Home:NextPage = () => {
 							overflow: 'hidden'
 						}}>
 							<Image
-								src="/BigNumbersBg.svg"
-								alt=""
-            					width={1300}
+								className={styles.heroBackground}
+								width={1300}
             					height={540.6}
             					sizes="100vw"
-								style={{
-									width: '100%',
-									height: '100%',
-									objectFit: 'cover',
-									objectPosition: 'center'
-								}}
-								priority
+            					alt=""
+            					src="/BigNumbersBg.svg"
 							/>
 						</div>
 							<div className={styles.groupParent}>
@@ -193,20 +195,13 @@ const Home:NextPage = () => {
         				<Image className={styles.bigNumbersInner} width={44} height={44} sizes="100vw" alt="" src="/Frame 4584.svg" />
       			</div>
       			<div className={styles.oQueFalamSobreNs}>
-        				<Image
-									className={styles.unionIcon1}
-									fill
-									sizes="100vw"
-									alt=""
-									src="/Union.svg"
-								/>
         				<div className={styles.oQueFalamSobreNsParent}>
           					<div className={styles.usamosAsPrincipaisContainer}>O que falam sobre nós</div>
           					<div className={styles.otimizeAGestoContainer}>Feedbacks que refletem nosso compromisso em fornecer soluções de dados inovadoras e eficazes.</div>
         				</div>
         				<div className={styles.modalFeedbackDeskWrapper}>
           					<div className={styles.modalFeedbackDesk}>
-            						<Image className={styles.unionIcon5} width={621} height={271.8} sizes="100vw" alt="" src="Union.svg" />
+            						<Image className={styles.unionIcon5} width={621} height={271.8} sizes="100vw" alt="" src="union1.svg" />
             						<div className={styles.ametMinimMollitNonDeseruntParent}>
               							<div className={styles.ametMinimMollit}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</div>
               							<div className={styles.elisaGrantParent}>
