@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Image from "next/image";
 import styles from './index.module.css';
+import Link from 'next/link';
 import Dashboard from '../components/Dashboard';
 
 
@@ -21,12 +22,12 @@ const Home:NextPage = () => {
                 								style={{ width: "auto", height: "48px" }} // garante proporção correta
               							/>
             						</div>
-            						<div className={styles.homeParent}>
-              							<div className={styles.solues}>Home</div>
-              							<div className={styles.solues}>Soluções</div>
-              							<div className={styles.solues}>Quem somos</div>
-              							<div className={styles.solues}>Contato</div>
-            						</div>
+									<div className={styles.homeParent}>
+										<Link href="/" className={styles.solues}>Home</Link>
+										<Link href="/solucoes" className={styles.solues}>Soluções</Link>
+										<Link href="/quem-somos" className={styles.solues}>Quem somos</Link>
+										<Link href="/contato" className={styles.solues}>Contato</Link>
+									</div>
           					</div>
           					<div className={styles.button}>
             						<div className={styles.stateLayer}>
