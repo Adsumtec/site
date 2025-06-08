@@ -92,7 +92,7 @@
 .header {
   	width: 1300px;
   	background-color: #fefefe;
-  	height: 74px;
+  	height: 50px;
   	display: flex;
   	flex-direction: column;
   	align-items: center;
@@ -133,6 +133,7 @@
   	height: 540.6px;
   	overflow: hidden;
 }
+
 .umNovoOlhar {
   	position: absolute;
   	top: 83px;
@@ -150,6 +151,34 @@
   	font-weight: 600;
   	display: inline-block;
 }
+
+.component3 {
+  	position: absolute;
+  	top: -50px;
+  	left: 0.5px;
+  	width: 1300px;
+  	height: 540.6px;
+  	overflow: hidden;
+}
+
+.solucoes {
+  	position: absolute;
+  	top: 80px;
+  	left: 87.79px;
+  	letter-spacing: 0.1px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+}
+.asSolucoes {
+  	width: 961px;
+  	position: relative;
+  	letter-spacing: -0.03px;
+  	line-height: 70px;
+  	font-weight: 600;
+  	display: inline-block;
+}
+
 .obtenhaResultadosConcretos {
   	width: 672px;
   	position: relative;
@@ -228,6 +257,16 @@
   	z-index: 1;
   	color: rgba(250, 250, 250, 0.7);
 }
+
+.header2 {
+  	width: 1300px;
+  	position: relative;
+  	border-radius: 31.07px;
+  	height: 538px;
+  	z-index: 1;
+  	color: rgba(250, 250, 250, 0.7);
+}
+
 .unionIcon1 {
   	width: 0px;
   	position: relative;
@@ -243,171 +282,6 @@
   	background-color: #fff;
   	width: 750.6px;
   	height: 361.5px;
-}
-.em2024 {
-  	color: #a0aec0;
-}
-.maisEm2024Container {
-  	position: absolute;
-  	top: 33.31px;
-  	left: 0.81px;
-  	letter-spacing: 0.08px;
-  	line-height: 16.25px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 116.2px;
-  	height: 15.4px;
-}
-.dashboardDeVendas {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	font-size: 26px;
-  	line-height: 32.5px;
-  	font-weight: 600;
-  	color: #2d3748;
-  	display: inline-block;
-  	width: 305.5px;
-  	height: 31.7px;
-}
-.text {
-  	position: absolute;
-  	top: 22.75px;
-  	left: 17.06px;
-  	width: 305.5px;
-  	height: 48.7px;
-}
-.dec {
-  	position: absolute;
-  	top: 0px;
-  	left: 661.27px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 22.7px;
-  	height: 12.2px;
-}
-.nov {
-  	position: absolute;
-  	top: 0px;
-  	left: 607.66px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.oct {
-  	position: absolute;
-  	top: 0px;
-  	left: 547.54px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.sep {
-  	position: absolute;
-  	top: 0px;
-  	left: 485.8px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 27.6px;
-  	height: 12.2px;
-}
-.aug {
-  	position: absolute;
-  	top: 0px;
-  	left: 424.06px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 24.4px;
-  	height: 12.2px;
-}
-.jul {
-  	position: absolute;
-  	top: 0px;
-  	left: 365.57px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 11.8px;
-  	height: 12.2px;
-}
-.jun {
-  	position: absolute;
-  	top: 0px;
-  	left: 304.64px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 14.6px;
-  	height: 12.2px;
-}
-.may {
-  	position: absolute;
-  	top: 0px;
-  	left: 242.9px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 23.6px;
-  	height: 12.2px;
-}
-.apr {
-  	position: absolute;
-  	top: 0px;
-  	left: 181.97px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 25.2px;
-  	height: 12.2px;
-}
-.mar {
-  	position: absolute;
-  	top: 0px;
-  	left: 121.04px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 25.2px;
-  	height: 12.2px;
-}
-.feb {
-  	position: absolute;
-  	top: 0px;
-  	left: 60.12px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 22.7px;
-  	height: 12.2px;
-}
-.jan {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	letter-spacing: 0.41px;
-  	line-height: 13px;
-  	font-weight: 500;
-  	display: inline-block;
-  	width: 26.8px;
-  	height: 12.2px;
 }
 .horizontal {
   	position: absolute;
@@ -574,11 +448,10 @@
   	color: #cbd5e0;
 }
 .secondCardWrapper {
-  	position: absolute;
-  	top: 0px;
-  	left: 0px;
-  	width: 750.6px;
-  	height: 361.5px;
+	position: relative; /* ← necessário para o fill funcionar */
+	width: 750.6px;
+	height: 361.5px;
+	overflow: hidden; /* se quiser cortar excesso */
 }
 .bloco1TecnologiasInner {
   	width: 492px;
@@ -752,6 +625,47 @@
   	width: 563px;
   	height: 120px;
 }
+
+.infoSolucoes {
+  	width: 1302px;
+  	height: 364px;
+  	overflow: hidden;
+  	flex-shrink: 0;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	padding: 0px 40px;
+  	box-sizing: border-box;
+  	gap: 151px;
+  	z-index: 4;
+  	font-size: 52px;
+}
+
+
+.sobreSolucoes {
+  	position: absolute;
+  	top: 0px;
+  	left: -0.5px;
+  	letter-spacing: -0.03px;
+  	line-height: 58px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 560px;
+  	height: 55px;
+}
+.descritionSolucoes {
+  	position: absolute;
+  	top: 71px;
+  	left: 0.5px;
+  	font-size: 24px;
+  	letter-spacing: 0.5px;
+  	line-height: 32px;
+  	display: inline-block;
+  	width: 563px;
+  	height: 120px;
+}
+
 .sobreAAdsumtecParent {
   	width: 550px;
   	position: relative;
@@ -960,7 +874,7 @@
 }
 .umPoucoDo {
   	position: absolute;
-  	top: 9px;
+  	top: 0px;
   	left: 33.31px;
   	font-size: 18px;
   	letter-spacing: 0.25px;
@@ -974,23 +888,26 @@
 }
 .bigNumbersInner {
   	position: absolute;
-  	top: 28.48px;
+  	top: 8.48px;
   	left: 196.98px;
   	width: 44px;
   	height: 44px;
   	object-fit: contain;
 }
 .bigNumbers {
-  	width: 1296px;
-  	position: relative;
-  	border-radius: 30px;
-  	height: 389px;
-  	overflow: hidden;
-  	flex-shrink: 0;
-  	z-index: 5;
-  	font-size: 64px;
-  	color: #fff;
+	top: 30px;
+	bottom: 30px;
+	width: 1300px;
+	position: relative;
+	border-radius: 30px;
+	height: 500px;
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 5;
+	font-size: 64px;
+	color: #fff;
 }
+
 .oQueFalamSobreNsParent {
   	width: 562px;
   	height: 279px;
@@ -1001,7 +918,7 @@
   	gap: 16px;
 }
 .unionIcon5 {
-  	position: relative;
+  	position: absolute;
   	border-radius: 39.68px;
   	width: 621px;
   	height: 271.8px;

@@ -1,6 +1,8 @@
 import type { NextPage } from 'next';
 import Image from "next/image";
 import styles from './index.module.css';
+import Link from 'next/link';
+import Dashboard from '../components/Dashboard';
 
 
 const Home:NextPage = () => {
@@ -20,12 +22,12 @@ const Home:NextPage = () => {
                 								style={{ width: "auto", height: "48px" }} // garante proporção correta
               							/>
             						</div>
-            						<div className={styles.homeParent}>
-              							<div className={styles.solues}>Home</div>
-              							<div className={styles.solues}>Soluções</div>
-              							<div className={styles.solues}>Quem somos</div>
-              							<div className={styles.solues}>Contato</div>
-            						</div>
+									<div className={styles.homeParent}>
+										<Link href="/" className={styles.solues}>Home</Link>
+										<Link href="/solucoes" className={styles.solues}>Soluções</Link>
+										<Link href="/quem-somos" className={styles.solues}>Quem somos</Link>
+										<Link href="/contato" className={styles.solues}>Contato</Link>
+									</div>
           					</div>
           					<div className={styles.button}>
             						<div className={styles.stateLayer}>
@@ -43,7 +45,7 @@ const Home:NextPage = () => {
             						sizes="100vw"
             						alt=""
             						src="/Component 2.svg"
-          					/>
+          					/>                    
           					{/* Remova ou comente qualquer elemento de fundo extra */}
           					{/* <div className={styles.component2Child} /> */}
           					{/* <div className={styles.component2Item} /> */}
@@ -64,69 +66,17 @@ const Home:NextPage = () => {
         				</div>
       			</div>
       			<div className={styles.bloco1Tecnologias}>
-        				<Image
-  className={styles.unionIcon1}
-  fill
-  sizes="100vw"
-  alt=""
-  src="/Union.svg"
-/>
         				<div className={styles.bloco1TecnologiasInner}>
           					<div className={styles.secondCardWrapper}>
-            						<div className={styles.secondCardWrapper}>
-              							<div className={styles.secondCardWrapper}>
-                								<div className={styles.backgroundChild} />
-              							</div>
-              							<div className={styles.text}>
-                								<div className={styles.maisEm2024Container}>
-                  									<span>(+5) mais</span>
-                  									<span className={styles.em2024}> em 2024</span>
-                								</div>
-                								<div className={styles.dashboardDeVendas}>Dashboard de vendas</div>
-              							</div>
-              							<div className={styles.graph}>
-                								<div className={styles.data}>
-                  									<div className={styles.horizontal}>
-                    										<div className={styles.dec}>Dec</div>
-                    										<div className={styles.nov}>Nov</div>
-                    										<div className={styles.oct}>Oct</div>
-                    										<div className={styles.sep}>Sep</div>
-                    										<div className={styles.aug}>Aug</div>
-                    										<div className={styles.jul}>Jul</div>
-                    										<div className={styles.jun}>Jun</div>
-                    										<div className={styles.may}>May</div>
-                    										<div className={styles.apr}>Apr</div>
-                    										<div className={styles.mar}>Mar</div>
-                    										<div className={styles.feb}>Feb</div>
-                    										<div className={styles.jan}>Jan</div>
-                  									</div>
-                  									<div className={styles.vertical}>
-                    										<div className={styles.div}>0</div>
-                    										<div className={styles.div1}>100</div>
-                    										<div className={styles.div2}>200</div>
-                    										<div className={styles.div3}>300</div>
-                    										<div className={styles.div4}>400</div>
-                    										<div className={styles.div5}>500</div>
-                    										<div className={styles.lines}>
-                      											<div className={styles.linesChild} />
-                      											<div className={styles.linesItem} />
-                      											<div className={styles.linesInner} />
-                      											<div className={styles.lineDiv} />
-                      											<div className={styles.linesChild1} />
-                      											<div className={styles.linesChild2} />
-                    										</div>
-                  									</div>
-                  									<Image
-                    									className={styles.linesIcon}
-                    									width={682.4}
-                    									height={202.9}
-                    									sizes="100vw"
-                    									alt=""
-                    									src="/Lines.svg"
-                  									/>
-                								</div>
-              							</div>
-            						</div>
+                  				<Image 
+									src="/dashboard.svg"
+									alt=""
+									fill
+									style={{
+									objectFit: 'cover', // ou 'contain', depende do efeito desejado
+									}}
+									priority
+								/>
           					</div>
         				</div>
         				<div className={styles.usamosAsPrincipaisTecnologiParent}>
@@ -200,23 +150,17 @@ const Home:NextPage = () => {
 							top: 0, 
 							left: 0, 
 							width: '100%', 
-							height: '90%', 
+							height: '100%', 
 							zIndex: 0,
 							overflow: 'hidden'
 						}}>
 							<Image
-								src="/BigNumbersBg.svg"
-								alt=""
-								width={1296}
-								height={389}
-								sizes="100vw"
-								style={{ 
-									width: '100%',
-									height: '100%',
-									objectFit: 'fill',
-									transform: 'scaleX(1.50) scaleY(0.90)'
-								}}
-								priority
+								className={styles.heroBackground}
+								width={1300}
+            					height={540.6}
+            					sizes="100vw"
+            					alt=""
+            					src="/BigNumbersBg.svg"
 							/>
 						</div>
 							<div className={styles.groupParent}>
@@ -252,20 +196,13 @@ const Home:NextPage = () => {
         				<Image className={styles.bigNumbersInner} width={44} height={44} sizes="100vw" alt="" src="/Frame 4584.svg" />
       			</div>
       			<div className={styles.oQueFalamSobreNs}>
-        				<Image
-									className={styles.unionIcon1}
-									fill
-									sizes="100vw"
-									alt=""
-									src="/Union.svg"
-								/>
         				<div className={styles.oQueFalamSobreNsParent}>
           					<div className={styles.usamosAsPrincipaisContainer}>O que falam sobre nós</div>
           					<div className={styles.otimizeAGestoContainer}>Feedbacks que refletem nosso compromisso em fornecer soluções de dados inovadoras e eficazes.</div>
         				</div>
         				<div className={styles.modalFeedbackDeskWrapper}>
           					<div className={styles.modalFeedbackDesk}>
-            						<Image className={styles.unionIcon5} width={621} height={271.8} sizes="100vw" alt="" src="Union.svg" />
+            						<Image className={styles.unionIcon5} width={621} height={271.8} sizes="100vw" alt="" src="union1.svg" />
             						<div className={styles.ametMinimMollitNonDeseruntParent}>
               							<div className={styles.ametMinimMollit}>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</div>
               							<div className={styles.elisaGrantParent}>
@@ -279,7 +216,7 @@ const Home:NextPage = () => {
         				</div>
       			</div>
       			<div className={styles.solues1}>
-        				<Image className={styles.unionIcon6} width={1296} height={684} sizes="100vw" alt="" src="Union.svg" />
+        				<Image className={styles.unionIcon6} width={1296} height={684} sizes="100vw" alt="" src="union.svg" />
         				<div className={styles.button4}>
           					<div className={styles.stateLayer}>
             						<div className={styles.solues}>Conheça nossas soluções</div>
@@ -290,7 +227,7 @@ const Home:NextPage = () => {
           					<p className={styles.usamosAsPrincipais}>para o seu negócio</p>
         				</b>
         				<div className={styles.serviosInteligentesQue}>Serviços inteligentes que promovem resultados de qualidade e transformam a gestão da sua empresa.</div>
-        				<Image className={styles.soluesChild} width={51} height={51} sizes="100vw" alt="" src="/Frame 4584.png" />
+        				<Image className={styles.soluesChild} width={51} height={51} sizes="100vw" alt="" src="/Frame 45841.svg" />
         				<div className={styles.feitoSobMedida}>Feito sob medida para o seu sucesso.</div>
         				<div className={styles.frameGroup}>
           					<div className={styles.dataAnalyticsParent}>
@@ -370,24 +307,32 @@ const Home:NextPage = () => {
           					<div className={styles.novasEstratgiasAo}>Novas estratégias ao seu alcance</div>
         				</div>
       			</div>
-      			<Image className={styles.horizontalfullWidthIcon} width={1287} height={41} sizes="100vw" alt="" src="Horizontal/Full-width.svg" />
+      			<Image className={styles.horizontalfullWidthIcon} width={1287} height={41} sizes="100vw" alt="" src="horizontal-full-width.svg" />
       			<div className={styles.div6} />
       			<div className={styles.bottom}>
         				<div className={styles.logoHorizontalEscuro3Parent}>
           					<div className={styles.logoHorizontalEscuro3}>
             						<div className={styles.group}>
-              							<div className={styles.group}>
-                								<Image className={styles.groupIcon3} width={134.4} height={23.4} sizes="100vw" alt="" src="/Group.svg" />
-                								<Image className={styles.groupIcon4} width={23.2} height={24.3} sizes="100vw" alt="" src="/Group.svg" />
-              							</div>
+            						<div className={styles.logoAdsumtec011}>
+              							<Image
+                								className={styles.groupIcon}
+                								width={180} // ajuste para a largura real da logomarca
+                								height={48} // ajuste para a altura real da logomarca
+                								sizes="(max-width: 600px) 120px, 180px"
+                								alt="Logomarca Adsumtec"
+                								src="/_adsumtec_logo-principal.png.png"
+                								style={{ width: "auto", height: "100px" }} // garante proporção correta
+              							/>
+            						</div>
             						</div>
           					</div>
           					<div className={styles.alcanandoOSucessoComDadosWrapper}>
             						<div className={styles.alcanandoOSucesso}>Alcançando o sucesso com dados.</div>
           					</div>
           					<div className={styles.linkedinParent}>
-            						<Image className={styles.linkedinIcon} width={24.8} height={24.8} sizes="100vw" alt="" src="/LinkedIn.png" />
-            						<Image className={styles.linkedinIcon} width={24.8} height={24.8} sizes="100vw" alt="" src="/Instagram.png" />
+            						<Image className={styles.linkedinIcon} width={24.8} height={24.8} sizes="100vw" alt="" src="/LinkedIn.svg" />
+            						<Image className={styles.linkedinIcon} width={24.8} height={24.8} sizes="100vw" alt="" src="/Instagram.svg" />
+									<Image className={styles.linkedinIcon} width={24.8} height={24.8} sizes="100vw" alt="" src="/Twitter.svg" />
           					</div>
         				</div>
         				<div className={styles.aAdsumtecParent}>
