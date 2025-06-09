@@ -62,55 +62,52 @@ const Dashboard = () => {
       transition={{ duration: 0.6, ease: 'easeOut' }}
       viewport={{ once: true }}
     >
-      <Card className="w-full">
-        <CardHeader>
-          <CardTitle>Dashboard de vendas</CardTitle>
-          <CardDescription>(+5) mais em 2024</CardDescription>
-        </CardHeader>
+      <div className="dashboard-section">
+        <Card className="dashboard-card" style={{ minWidth: 620, maxWidth: 760 }}>
+          <CardContent style={{ height: 360, padding: 0 }}>
+            <ResponsiveContainer width="100%" height="100%">
+              <AreaChart data={data} margin={{ top: 24, right: 32, left: 24, bottom: 8 }}>
+                <defs>
+                  <linearGradient id="colorSales" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#FBBF24" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#FBBF24" stopOpacity={0} />
+                  </linearGradient>
+                  <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor="#1E3A8A" stopOpacity={0.3} />
+                    <stop offset="95%" stopColor="#1E3A8A" stopOpacity={0} />
+                  </linearGradient>
+                </defs>
+                <CartesianGrid vertical={false} strokeDasharray="3 3" />
+                <XAxis dataKey="name" tick={{ fill: '#64748B', fontSize: 12 }} />
+                <YAxis tick={{ fill: '#64748B', fontSize: 12 }} />
 
-        <CardContent className="h-64">
-          <ResponsiveContainer width="100%" height="100%">
-            <AreaChart data={data}>
-              <defs>
-                <linearGradient id="colorSales" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#FBBF24" stopOpacity={0.3} />
-                  <stop offset="95%" stopColor="#FBBF24" stopOpacity={0} />
-                </linearGradient>
-                <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
-                  <stop offset="5%" stopColor="#1E3A8A" stopOpacity={0.3} />
-                  <stop offset="95%" stopColor="#1E3A8A" stopOpacity={0} />
-                </linearGradient>
-              </defs>
-              <CartesianGrid vertical={false} strokeDasharray="3 3" />
-              <XAxis dataKey="name" tick={{ fill: '#64748B', fontSize: 12 }} />
-              <YAxis tick={{ fill: '#64748B', fontSize: 12 }} />
-
-              <Area
-                type="monotone"
-                dataKey="sales"
-                stroke="#F59E0B"
-                strokeWidth={3}
-                fill="url(#colorSales)"
-                dot={false}
-                isAnimationActive={true}
-                animationDuration={2000}
-                animationEasing="ease-in-out"
-              />
-              <Area
-                type="monotone"
-                dataKey="revenue"
-                stroke="#1E3A8A"
-                strokeWidth={3}
-                fill="url(#colorRevenue)"
-                dot={false}
-                isAnimationActive={true}
-                animationDuration={2000}
-                animationEasing="ease-in-out"
-              />
-            </AreaChart>
-          </ResponsiveContainer>
-        </CardContent>
-      </Card>
+                <Area
+                  type="monotone"
+                  dataKey="sales"
+                  stroke="#F59E0B"
+                  strokeWidth={4}
+                  fill="url(#colorSales)"
+                  dot={false}
+                  isAnimationActive={true}
+                  animationDuration={2000}
+                  animationEasing="ease-in-out"
+                />
+                <Area
+                  type="monotone"
+                  dataKey="revenue"
+                  stroke="#1E3A8A"
+                  strokeWidth={4}
+                  fill="url(#colorRevenue)"
+                  dot={false}
+                  isAnimationActive={true}
+                  animationDuration={2000}
+                  animationEasing="ease-in-out"
+                />
+              </AreaChart>
+            </ResponsiveContainer>
+          </CardContent>
+        </Card>
+      </div>
     </motion.div>
   );
 };
