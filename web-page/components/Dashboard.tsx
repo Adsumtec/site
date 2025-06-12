@@ -1,115 +1,120 @@
-'use client';
+"use client"
 
-import React, { useEffect, useState } from 'react';
-import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, ResponsiveContainer,
-} from 'recharts';
-import { motion } from 'framer-motion';
-import { 
-  Card, 
-  CardContent, 
-  CardHeader, 
-  CardTitle, 
-  CardDescription 
-} from '@/components/ui/card';
+import { Area, AreaChart, ResponsiveContainer, XAxis, YAxis } from "recharts"
 
-const initialData = [
-  { name: 'Jan', sales: 0, revenue: 0 },
-  { name: 'Feb', sales: 0, revenue: 0 },
-  { name: 'Mar', sales: 0, revenue: 0 },
-  { name: 'Apr', sales: 0, revenue: 0 },
-  { name: 'May', sales: 0, revenue: 0 },
-  { name: 'Jun', sales: 0, revenue: 0 },
-  { name: 'Jul', sales: 0, revenue: 0 },
-  { name: 'Aug', sales: 0, revenue: 0 },
-];
+const data = [
+  { month: "Jan", vendas: 200, meta: 500 },
+  { month: "Feb", vendas: 150, meta: 220 },
+  { month: "Mar", vendas: 200, meta: 250 },
+  { month: "Apr", vendas: 280, meta: 350 },
+  { month: "May", vendas: 220, meta: 380 },
+  { month: "Jun", vendas: 250, meta: 450 },
+  { month: "Jul", vendas: 240, meta: 480 },
+  { month: "Aug", vendas: 300, meta: 300 },
+]
 
-const finalData = [
-  { name: 'Jan', sales: 600, revenue: 200 },
-  { name: 'Feb', sales: 200, revenue: 500 },
-  { name: 'Mar', sales: 300, revenue: 300 },
-  { name: 'Apr', sales: 400, revenue: 400 },
-  { name: 'May', sales: 450, revenue: 350 },
-  { name: 'Jun', sales: 650, revenue: 450 },
-  { name: 'Jul', sales: 500, revenue: 400 },
-  { name: 'Aug', sales: 400, revenue: 300 },
-];
-
-const Dashboard = () => {
-  const [data, setData] = useState(initialData);
-
-  useEffect(() => {
-    const timeout = setTimeout(() => {
-      let i = 0;
-      const interval = setInterval(() => {
-        setData(prev => {
-          const next = [...prev];
-          next[i] = finalData[i];
-          return next;
-        });
-        i++;
-        if (i === finalData.length) clearInterval(interval);
-      }, 150);
-    }, 300);
-
-    return () => clearTimeout(timeout);
-  }, []);
-
+function Dashboard() {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 40 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, ease: 'easeOut' }}
-      viewport={{ once: true }}
+    <div style={{ width: "100%", height: "250px", padding: "0 24px 24px 24px" }}>
+      <ResponsiveContainer width="100%" height="100%">
+        <AreaChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
+          <defs>
+            <linearGradient id="colorVendas" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#64748b" stopOpacity={0.3} />
+              <stop offset="95%" stopColor="#64748b" stopOpacity={0.1} />
+            </linearGradient>
+            <linearGradient id="colorMeta" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="5%" stopColor="#f59e0b" stopOpacity={0.4} />
+              <stop offset="95%" stopColor="#f59e0b" stopOpacity={0.1} />
+            </linearGradient>
+          </defs>
+          <XAxis dataKey="month" axisLine={false} tickLine={false} tick={{ fontSize: 12, fill: "#94a3b8" }} />
+          <YAxis axisLine={false} tickLine={false} tick={{ fontSize: 12, fill: "#94a3b8" }} domain={[0, 500]} />
+          <Area
+            type="monotone"
+            dataKey="vendas"
+            stroke="#64748b"
+            strokeWidth={2}
+            fillOpacity={1}
+            fill="url(#colorVendas)"
+          />
+          <Area
+            type="monotone"
+            dataKey="meta"
+            stroke="#f59e0b"
+            strokeWidth={2}
+            fillOpacity={1}
+            fill="url(#colorMeta)"
+          />
+        </AreaChart>
+      </ResponsiveContainer>
+    </div>
+  )
+}
+
+export default function DashboardSection() {
+  return (
+    <div
+      className="secondCardWrapper"
+      style={{
+        position: "relative",
+        width: "100%",
+        height: "100%",
+        overflow: "hidden",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "#f8fafc",
+        padding: "1rem",
+      }}
     >
-      <div className="dashboard-section">
-        <Card className="dashboard-card" style={{ minWidth: 620, maxWidth: 760 }}>
-          <CardContent style={{ height: 360, padding: 0 }}>
-            <ResponsiveContainer width="100%" height="100%">
-              <AreaChart data={data} margin={{ top: 24, right: 32, left: 24, bottom: 8 }}>
-                <defs>
-                  <linearGradient id="colorSales" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#FBBF24" stopOpacity={0.3} />
-                    <stop offset="95%" stopColor="#FBBF24" stopOpacity={0} />
-                  </linearGradient>
-                  <linearGradient id="colorRevenue" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#1E3A8A" stopOpacity={0.3} />
-                    <stop offset="95%" stopColor="#1E3A8A" stopOpacity={0} />
-                  </linearGradient>
-                </defs>
-                <CartesianGrid vertical={false} strokeDasharray="3 3" />
-                <XAxis dataKey="name" tick={{ fill: '#64748B', fontSize: 12 }} />
-                <YAxis tick={{ fill: '#64748B', fontSize: 12 }} />
-
-                <Area
-                  type="monotone"
-                  dataKey="sales"
-                  stroke="#F59E0B"
-                  strokeWidth={4}
-                  fill="url(#colorSales)"
-                  dot={false}
-                  isAnimationActive={true}
-                  animationDuration={2000}
-                  animationEasing="ease-in-out"
-                />
-                <Area
-                  type="monotone"
-                  dataKey="revenue"
-                  stroke="#1E3A8A"
-                  strokeWidth={4}
-                  fill="url(#colorRevenue)"
-                  dot={false}
-                  isAnimationActive={true}
-                  animationDuration={2000}
-                  animationEasing="ease-in-out"
-                />
-              </AreaChart>
-            </ResponsiveContainer>
-          </CardContent>
-        </Card>
+      {/* Card do Dashboard */}
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          maxWidth: "600px",
+          maxHeight: "400px",
+          backgroundColor: "white",
+          borderRadius: "12px",
+          boxShadow: "0 4px 6px -1px rgb(0 0 0 / 0.1)",
+          overflow: "hidden",
+          display: "flex",
+          flexDirection: "column",
+        }}
+      >
+        <div
+          style={{
+            padding: "20px 24px 0 24px",
+            flexShrink: 0,
+          }}
+        >
+          <h2
+            style={{
+              fontSize: "1.5rem",
+              fontWeight: 600,
+              margin: 0,
+              color: "#1e293b",
+              fontFamily: "inherit",
+            }}
+          >
+            Dashboard de vendas
+          </h2>
+          <div
+            style={{
+              fontSize: "0.85rem",
+              color: "#f59e0b",
+              marginBottom: "8px",
+              marginTop: "2px",
+            }}
+          >
+            (+5) mais em 2024
+          </div>
+        </div>
+        <div style={{ flex: 1, minHeight: 0 }}>
+          <Dashboard />
+        </div>
       </div>
-    </motion.div>
-  );
-};
-
-export default Dashboard;
+    </div>
+  )
+}

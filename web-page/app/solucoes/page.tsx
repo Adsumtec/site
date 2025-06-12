@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from '../index.module.css';
 import Link from 'next/link';
+import Component from "@/components/cloud-soluctions";
 
 export const metadata = {
   title: 'Adsumtec - Consultoria em Dados',
@@ -158,75 +159,7 @@ export default function Home() {
           <Image className={styles.bigNumbersInner} width={44} height={44} sizes="100vw" alt="" src="/Frame 4584.svg" />
       </div>
       <div className={styles.solues} style={{ position: 'relative', overflow: 'hidden', top: '150px'}}>
-        <Image className={styles.unionIcon6} width={1296} height={684} sizes="100vw" alt="" src="union.svg" />
-        <div className={styles.button4}>
-          <div className={styles.stateLayer}>
-            <div className={styles.solues}>Conheça nossas soluções</div>
-          </div>
-        </div>
-        <b className={styles.asSoluesEmContainer}>
-          <p className={styles.usamosAsPrincipais}>As soluções em dados</p>
-          <p className={styles.usamosAsPrincipais}>para o seu negócio</p>
-        </b>
-        <div className={styles.serviosInteligentesQue}>Serviços inteligentes que promovem resultados de qualidade e transformam a gestão da sua empresa.</div>
-        <Image className={styles.soluesChild} width={51} height={51} sizes="100vw" alt="" src="/Frame 45841.svg" />
-        <div className={styles.feitoSobMedida}>Feito sob medida para o seu sucesso.</div>
-        <div className={styles.frameGroup}>
-          <div className={styles.dataAnalyticsParent}>
-            <div className={styles.dataAnalytics}>Data Analytics</div>
-            <div className={styles.identifiqueOportunidadesE}>Análise de dados para decisões eficientes.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="linked_services.svg" />
-          </div>
-          <div className={styles.cloudSolutionsParent}>
-            <div className={styles.cloudSolutions}>Cloud Solutions</div>
-            <div className={styles.identifiqueOportunidadesE}>Implemente alternativas de nuvem seguras e escaláveis para seu negócio.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="cloud.svg" />
-          </div>
-          <div className={styles.cloudSolutionsParent}>
-            <div className={styles.cloudSolutions}>DataOps</div>
-            <div className={styles.identifiqueOportunidadesE}>Agilize processos e melhore a qualidade dos seus dados.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="backup.svg" />
-          </div>
-          <div className={styles.powerBiParent}>
-            <div className={styles.cloudSolutions}>Power BI</div>
-            <div className={styles.identifiqueOportunidadesE}>Obtenha insights poderosos para suas estratégicas.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="alt_route.svg" />
-          </div>
-          <div className={styles.powerBiParent}>
-            <div className={styles.cloudSolutions}>UX/UI dados</div>
-            <div className={styles.identifiqueOportunidadesE}>Crie experiências intuitivas e envolventes para o usuário.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="drag_pan.svg" />
-          </div>
-          <div className={styles.governanaParent}>
-            <div className={styles.cloudSolutions}>Governança</div>
-            <div className={styles.diretrizesParaUma}>Diretrizes para uma gestão transparente e responsável.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="admin_panel_settings.svg" />
-          </div>
-          <div className={styles.seguranaDaInformaoParent}>
-            <div className={styles.cloudSolutions}>
-              <p className={styles.usamosAsPrincipais}>Segurança</p>
-              <p className={styles.usamosAsPrincipais}>da informação</p>
-            </div>
-            <div className={styles.protejaSuasInformaes}>Proteja suas informações com soluções robustas de segurança.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="lock.svg" />
-          </div>
-          <div className={styles.seguranaDaInformaoParent}>
-            <div className={styles.cloudSolutions}>
-              <p className={styles.usamosAsPrincipais}>{`Inteligência `}</p>
-              <p className={styles.usamosAsPrincipais}>Artificial</p>
-            </div>
-            <div className={styles.automatizeProcessosComplexos}>Automatize processos complexos para maior eficiência.</div>
-            <div className={styles.frameChild} />
-            <Image className={styles.linkedServicesIcon} width={24} height={24} sizes="100vw" alt="" src="bolt.svg" />
-          </div>
-        </div>
+        <Component />
       </div>
       <div className={styles.formulrio}>
         <div className={styles.formulrioChild} />

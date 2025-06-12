@@ -1,7 +1,8 @@
 import Image from "next/image";
 import styles from './index.module.css';
 import Link from 'next/link';
-import Dashboard from '../components/Dashboard';
+import DashboardSection from "../components/Dashboard"
+
 
 export const metadata = {
   title: 'Adsumtec - Consultoria em Dados',
@@ -70,32 +71,7 @@ export default function Home() {
       </div>
       <div className={styles.bloco1Tecnologias}>
         <div className={styles.bloco1TecnologiasInner}>
-          <div className={styles.secondCardWrapper}>
-            {/* Título e descrição acima do gráfico */}
-            <div style={{
-              padding: '24px 24px 0 24px'
-            }}>
-              <h2 style={{
-                  fontSize: '2rem',
-                  fontWeight: 600,
-                  margin: 0,
-                  color: '#1e293b',
-                  fontFamily: 'inherit'
-              }}>
-                Dashboard de vendas
-              </h2>
-              <div style={{
-                  fontSize: '0.85rem',
-                  color: '#f59e0b',
-                  marginBottom: '8px',
-                  marginTop: '2px'
-              }}>
-                  (+5) mais em 2024
-              </div>
-            </div>
-            {/* Gráfico logo abaixo */}
-            <Dashboard />
-          </div>
+            <DashboardSection />
         </div>
         <div className={styles.usamosAsPrincipaisTecnologiParent}>
           <div className={styles.usamosAsPrincipaisContainer}>
