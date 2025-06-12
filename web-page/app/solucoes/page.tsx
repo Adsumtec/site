@@ -48,9 +48,9 @@ export default function Home() {
             src="/Component-solucoes.svg"
           />                    
         </div>
-        <div className={styles.solucoes}>soluções</div>
+        <div className={styles.solucoes}>CONHEÇA A ADSUMTEC</div>
         <div className={styles.soluesParaOSeuNegcioCoParent}>
-          <div className={styles.titleSolucoes}>As soluções em dados para o seu negócio.</div>
+          <div className={styles.titleSolucoes}>Quem somos</div>
         </div>
       </div>
       <div className={styles.sobreAAdsumtec} style={{ position: 'relative', overflow: 'hidden', top: '50px' }}>
