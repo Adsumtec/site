@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronLeft, ChevronRight, Cloud, Database, BarChart3, Palette, Shield, Lock, Brain } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { Cloud, Database, BarChart3, Palette, Shield, Lock, Brain } from "lucide-react"
+import styles from "../app/index.module.css"
 
 export default function Component() {
   const [activeTab, setActiveTab] = useState(0)
@@ -120,18 +120,14 @@ export default function Component() {
   const IconComponent = currentTab.icon
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Navigation Tabs */}
-      <div className="flex flex-wrap gap-4 p-8 pb-16 justify-center">
+    <div>
+      {/* Tabs */}
+      <div className={styles.solucoesTabs}>
         {tabsData.map((tab, index) => (
           <button
             key={index}
             onClick={() => setActiveTab(index)}
-            className={`px-8 py-4 rounded-full text-base font-medium transition-all duration-200 whitespace-nowrap ${
-              index === activeTab
-                ? "bg-slate-800 text-white shadow-lg"
-                : "bg-white text-slate-700 border-2 border-gray-200 hover:border-gray-300 hover:shadow-md"
-            }`}
+            className={`${styles.solucoesTabButton} ${index === activeTab ? styles.solucoesTabButtonActive : ""}`}
           >
             {tab.name}
           </button>
@@ -139,72 +135,51 @@ export default function Component() {
       </div>
 
       {/* Main Content */}
-      <div className="px-8 pb-24 max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-5 gap-16">
-          {/* Left Column */}
-          <div className="lg:col-span-2 space-y-8">
-            <div className="flex items-center space-x-4">
-              <div className="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
-                <IconComponent className="w-8 h-8 text-white" />
-              </div>
-            </div>
-            <h1 className="text-6xl font-light text-slate-800 leading-tight">
-              {currentTab.title.split(" ").map((word, index) => (
-                <span key={index}>
-                  {word}
-                  {index < currentTab.title.split(" ").length - 1 && <br />}
-                </span>
-              ))}
-            </h1>
+      <div
+        className={styles.solucoesContainer}
+        style={{
+          minHeight: 420, // altura mínima para manter o conteúdo alinhado
+          maxWidth: 1200,
+          margin: "0 auto",
+          marginBottom: 48,
+        }}
+      >
+        {/* Left */}
+        <div className={styles.solucoesLeft}>
+          <div className={styles.solucoesIconCircle}>
+            <IconComponent size={28} color="#fff" />
           </div>
-
-          {/* Right Column */}
-          <div className="lg:col-span-3 space-y-16">
-            {/* O que é? */}
-            <div className="space-y-6">
-              <h2 className="text-3xl font-medium text-slate-800">O que é?</h2>
-              <p className="text-slate-600 text-xl leading-relaxed font-light">{currentTab.sections.whatIs}</p>
-            </div>
-
-            {/* Para o que serve? */}
-            <div className="space-y-6">
-              <h2 className="text-3xl font-medium text-slate-800">Para o que serve?</h2>
-              <p className="text-slate-600 text-xl leading-relaxed font-light">{currentTab.sections.purpose}</p>
-            </div>
-
-            {/* Benefícios */}
-            <div className="space-y-8">
-              <h2 className="text-3xl font-medium text-slate-800">Benefícios</h2>
-              <div className="space-y-4">
-                {currentTab.sections.benefits.map((benefit, index) => (
-                  <div key={index} className="flex items-start space-x-4">
-                    <span className="text-slate-800 text-xl font-medium mt-1">✓</span>
-                    <p className="text-slate-600 text-xl font-light leading-relaxed">{benefit}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className={styles.solucoesTitle}>
+            {currentTab.title.split(" ").map((word, i) => (
+              <span key={i}>
+                {word}
+                {i < currentTab.title.split(" ").length - 1 && <br />}
+              </span>
+            ))}
           </div>
         </div>
 
-        {/* Navigation Arrows */}
-        <div className="flex space-x-4 mt-20">
-          <Button
-            variant="outline"
-            size="icon"
-            className="w-14 h-14 rounded-full border-2 border-gray-300 hover:bg-gray-50 hover:border-gray-400 transition-all"
-            onClick={() => setActiveTab(activeTab > 0 ? activeTab - 1 : tabsData.length - 1)}
-          >
-            <ChevronLeft className="w-6 h-6 text-slate-600" />
-          </Button>
-          <Button
-            variant="outline"
-            size="icon"
-            className="w-14 h-14 rounded-full border-2 border-gray-300 hover:bg-gray-50 hover:border-gray-400 transition-all"
-            onClick={() => setActiveTab(activeTab < tabsData.length - 1 ? activeTab + 1 : 0)}
-          >
-            <ChevronRight className="w-6 h-6 text-slate-600" />
-          </Button>
+        {/* Right */}
+        <div className={styles.solucoesRight}>
+          <div className={styles.solucoesSection}>
+            <div className={styles.solucoesSectionTitle}>O que é?</div>
+            <div className={styles.solucoesSectionText}>{currentTab.sections.whatIs}</div>
+          </div>
+          <div className={styles.solucoesSection}>
+            <div className={styles.solucoesSectionTitle}>Para o que serve?</div>
+            <div className={styles.solucoesSectionText}>{currentTab.sections.purpose}</div>
+          </div>
+          <div>
+            <div className={styles.solucoesSectionTitle}>Benefícios</div>
+            <div className={styles.solucoesBenefits}>
+              {currentTab.sections.benefits.map((benefit, idx) => (
+                <div key={idx} className={styles.solucoesBenefitItem}>
+                  <span className={styles.solucoesBenefitCheck}>✓</span>
+                  <span>{benefit}</span>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

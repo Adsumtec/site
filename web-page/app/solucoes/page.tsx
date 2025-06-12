@@ -49,9 +49,9 @@ export default function Home() {
             src="/Component-solucoes.svg"
           />                    
         </div>
-        <div className={styles.solucoes}>CONHEÇA A ADSUMTEC</div>
+        <div className={styles.solucoes}>SOLUÇÔES</div>
         <div className={styles.soluesParaOSeuNegcioCoParent}>
-          <div className={styles.titleSolucoes}>Quem somos</div>
+          <div className={styles.titleSolucoes}>As soluções em dados para o seu negócio.</div>
         </div>
       </div>
       <div className={styles.sobreAAdsumtec} style={{ position: 'relative', overflow: 'hidden', top: '50px' }}>
@@ -158,7 +158,7 @@ export default function Home() {
           <div className={styles.umPoucoDo} style={{ width: '180px' }}>Use o poder dos Dados ao seu favor!</div>
           <Image className={styles.bigNumbersInner} width={44} height={44} sizes="100vw" alt="" src="/Frame 4584.svg" />
       </div>
-      <div className={styles.solues} style={{ position: 'relative', overflow: 'hidden', top: '150px'}}>
+      <div className={styles.solues} style={{ position: 'relative', overflow: 'hidden', top: '100px', bottom: '100px'}}>
         <Component />
       </div>
       <div className={styles.formulrio}>
