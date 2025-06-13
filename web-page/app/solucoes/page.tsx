@@ -161,7 +161,7 @@ export default function Home() {
       <div className={styles.solues} style={{ position: 'relative', overflow: 'hidden', top: '100px', bottom: '100px'}}>
         <Component />
       </div>
-      <div className={styles.formulrio}>
+      <div className={styles.formulrio} style={{ position: 'relative', overflow: 'hidden', top: '100px', bottom: '100px'}}>
         <div className={styles.formulrioChild} />
         <div className={styles.formulrioItem} />
         <div className={styles.frameContainer}>
@@ -183,7 +183,6 @@ export default function Home() {
         </div>
       </div>
       <Image className={styles.horizontalfullWidthIcon} width={1287} height={41} sizes="100vw" alt="" src="horizontal-full-width.svg" />
-      <div className={styles.div6} />
       <div className={styles.bottom}>
         <div className={styles.logoHorizontalEscuro3Parent}>
             <div className={styles.logoAdsumtec011}>
